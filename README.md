@@ -149,4 +149,4 @@ Go to [http://localhost:5173](http://localhost:5173)
 ## 📬 Contact
 - Created by [Aniket Shinde](https://github.com/AniketShinde02)
 - For questions, open an issue or contact via GitHub
-- or Mail at ## shindeaniket085@gmail.com
+-  Mail at shindeaniket085@gmail.com
