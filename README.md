@@ -20,7 +20,7 @@ A modern, AI-powered web app that detects your facial emotion in real time and s
 ![Mobile Screenshot](./screenshots/phone.png)
 *Demonstrates the responsive design and usability on a mobile device.*
 
-### **Mood-Based Playlist Section**
+### **Responsive View**
 ![Playlist Screenshot](./screenshots/reponsive_view.png)
 *Highlights the colored playlist cards and their responsive stacking.*
 
