@@ -5,7 +5,7 @@ A modern, AI-powered web app that detects your facial emotion in real time and s
 ---
 
 ## 🚀 Live Demo
-[View the deployed app on Vercel](https://emotion-detector-xux4.vercel.app/))
+[View the deployed app on Vercel](https://emotion-detector-xux4.vercel.app/)
 
 ---
 
