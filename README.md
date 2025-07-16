@@ -90,11 +90,13 @@ Visit [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 📂 Folder Structure
+## 📁 Folder Structure
 ```
 facial-emotion-player/
 ├── public/
-│   └── models/           # face-api.js models (required for detection)
+│   ├── models/           # face-api.js models (required for detection)
+│   ├── songs/            # Local MP3 files for mood-based music
+│   └── cues/             # Local MP3 files for emotion cues
 ├── src/
 │   ├── App.jsx           # Main React component
 │   ├── index.css         # Global styles
@@ -108,7 +110,8 @@ facial-emotion-player/
 ---
 
 ## 🧑‍💻 Customization
-- **Add your own music:** Edit the `moodSongs` and `moodTracks` objects in `App.jsx`.
+- **Add your own music:** Place your MP3 files in `public/songs/` and update the `moodSongs` and `moodTracks` objects in `App.jsx` to use your file names.
+- **Add your own emotion cues:** Place short MP3 files in `public/cues/` and update the `emotionCues` object in `App.jsx`.
 - **Change compliments/quotes:** Edit the `emotionMessages` object in `App.jsx`.
 - **Tweak UI:** Modify Tailwind classes in `App.jsx` or add your own styles.
 - **Deploy:** Easily deploy to Vercel, Netlify, or any static host.
@@ -143,11 +146,11 @@ A: Yes! The UI is fully responsive and touch-friendly.
 
 ---
 
-## 🛟 Troubleshooting
+## 🛠️ Troubleshooting
 - If the webcam doesn’t work, check browser permissions.
 - If models don’t load, make sure the `/public/models` folder is present.
+- **If music or cues don’t play, ensure your MP3 files are present in `public/songs/` and `public/cues/` and the file names match those in `App.jsx`.**
 - For best results, use Chrome or Firefox.
-- If music doesn’t play, try another browser or check your sound settings.
 
 ---
 
@@ -171,8 +174,6 @@ A: Yes! The UI is fully responsive and touch-friendly.
 - [TensorFlow.js](https://www.tensorflow.org/js)
 - [Howler.js](https://howlerjs.com/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [SoundHelix](https://www.soundhelix.com/) (demo music)
-- [Pixabay](https://pixabay.com/music/) (audio cues)
 
 ---
 
