@@ -3,7 +3,7 @@ import Webcam from "react-webcam";
 import * as faceapi from "face-api.js";
 import { Howl } from "howler";
 import * as tf from "@tensorflow/tfjs";
-
+import { Analytics } from "@vercel/analytics/react"
 
 // ✅ Set TensorFlow backend early
 await tf.setBackend("webgl");
@@ -377,6 +377,7 @@ export default function App() {
       <footer className="text-center mt-4 sm:mt-8 md:mt-16 text-xs md:text-sm text-gray-400 pb-2 md:pb-4">
         Built with <span className="text-pink-400">❤️</span> using <span className="font-bold">React</span>, <span className="font-bold">TailwindCSS</span>, <span className="font-bold">face-api.js</span>, <span className="font-bold">TensorFlow.js</span> & <span className="font-bold">Howler.js</span>
       </footer>
+      <Analytics />
     </div>
   );
 }
